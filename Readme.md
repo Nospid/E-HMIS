@@ -44,11 +44,7 @@ where `this-is-you` is your GitHub username. Here you're copying the contents of
 
 Change to the repository directory on your computer (if you are not already there):
 
-```bash
-cd first-contributions
-```
-
-Now create a branch using the `git switch` command:
+create a branch using the `git switch` command:
 
 ```bash
 git switch -c your-new-branch-name
@@ -57,14 +53,11 @@ git switch -c your-new-branch-name
 For example:
 
 ```bash
-git switch -c add-alonzo-church
+git switch -c dipson
 ```
 
 ## Make necessary changes and commit those changes
 
-Now open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
-
-<img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
 
 If you go to the project directory and execute the command `git status`, you'll see there are changes.
 
@@ -77,10 +70,10 @@ git add Contributors.md
 Now commit those changes using the `git commit` command:
 
 ```bash
-git commit -m "Add your-name to Contributors list"
+git commit -m "........."
 ```
 
-replacing `your-name` with your name.
+replacing `........` with changes you have done.
 
 ## Push changes to GitHub
 
