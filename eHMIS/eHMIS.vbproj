@@ -88,10 +88,142 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="baal-vita.Designer.vb">
+      <DependentUpon>baal-vita.vb</DependentUpon>
+    </Compile>
+    <Compile Include="baal-vita.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="balbalika-posan.Designer.vb">
+      <DependentUpon>balbalika-posan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="balbalika-posan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ChiefMinisterPublicHealthExaminationRecordRegister.Designer.vb">
       <DependentUpon>ChiefMinisterPublicHealthExaminationRecordRegister.vb</DependentUpon>
     </Compile>
     <Compile Include="ChiefMinisterPublicHealthExaminationRecordRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="condom-distribution.Designer.vb">
+      <DependentUpon>condom-distribution.vb</DependentUpon>
+    </Compile>
+    <Compile Include="condom-distribution.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contact-investigation-and-tbpt-register.Designer.vb">
+      <DependentUpon>contact-investigation-and-tbpt-register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="contact-investigation-and-tbpt-register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emergency-service-register.Designer.vb">
+      <DependentUpon>emergency-service-register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="emergency-service-register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="imnci-register-below-two-months.Designer.vb">
+      <DependentUpon>imnci-register-below-two-months.vb</DependentUpon>
+    </Compile>
+    <Compile Include="imnci-register-below-two-months.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kustha-rog-treatment.Designer.vb">
+      <DependentUpon>kustha-rog-treatment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kustha-rog-treatment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="non-communicable-and-mental-health.Designer.vb">
+      <DependentUpon>non-communicable-and-mental-health.vb</DependentUpon>
+    </Compile>
+    <Compile Include="non-communicable-and-mental-health.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presumptive-tb-register.Designer.vb">
+      <DependentUpon>presumptive-tb-register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="presumptive-tb-register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="senior-citizen.Designer.vb">
+      <DependentUpon>senior-citizen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="senior-citizen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="matri-nabasisu-sewa-register.Designer.vb">
+      <DependentUpon>matri-nabasisu-sewa-register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="matri-nabasisu-sewa-register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pariwaar-niyojan-permanent.Designer.vb">
+      <DependentUpon>pariwaar-niyojan-permanent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pariwaar-niyojan-permanent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="patient-admission-register.Designer.vb">
+      <DependentUpon>patient-admission-register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="patient-admission-register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tb-laboratory-xpert-register.Designer.vb">
+      <DependentUpon>tb-laboratory-xpert-register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tb-laboratory-xpert-register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vitamin-a2.Designer.vb">
+      <DependentUpon>Vitamin-a2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vitamin-a2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="health-promotion-and-health-eduction-register.Designer.vb">
+      <DependentUpon>health-promotion-and-health-eduction-register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="health-promotion-and-health-eduction-register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="icud-implant-register.Designer.vb">
+      <DependentUpon>icud-implant-register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="icud-implant-register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="khop-session.Designer.vb">
+      <DependentUpon>khop-session.vb</DependentUpon>
+    </Compile>
+    <Compile Include="khop-session.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laboratory-request-and-reporting.Designer.vb">
+      <DependentUpon>laboratory-request-and-reporting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laboratory-request-and-reporting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mahila-swasthya-swam-sewika-details.Designer.vb">
+      <DependentUpon>mahila-swasthya-swam-sewika-details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mahila-swasthya-swam-sewika-details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="malaria-kustharog-kalaazar-lab.Designer.vb">
+      <DependentUpon>malaria-kustharog-kalaazar-lab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="malaria-kustharog-kalaazar-lab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mothers-death-details.Designer.vb">
+      <DependentUpon>mothers-death-details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mothers-death-details.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="mul-darta.vb">
@@ -123,10 +255,148 @@
     <Compile Include="ncd-screening.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="out-patient.Designer.vb">
+      <DependentUpon>out-patient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="out-patient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="patient-discharge-register.Designer.vb">
+      <DependentUpon>patient-discharge-register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="patient-discharge-register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pills-depo-registers.Designer.vb">
+      <DependentUpon>pills-depo-registers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pills-depo-registers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reproductive-health.Designer.vb">
+      <DependentUpon>reproductive-health.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reproductive-health.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="safe-abortion-service-register.Designer.vb">
+      <DependentUpon>safe-abortion-service-register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="safe-abortion-service-register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sexually-transmitted-infection.Designer.vb">
+      <DependentUpon>sexually-transmitted-infection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sexually-transmitted-infection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sncu-nicu-kmcu.Designer.vb">
+      <DependentUpon>sncu-nicu-kmcu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sncu-nicu-kmcu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tb-lab-register.Designer.vb">
+      <DependentUpon>tb-lab-register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tb-lab-register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="td-khop-sewa%282%29.Designer.vb">
+      <DependentUpon>td-khop-sewa%282%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="td-khop-sewa%282%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="td-khop-sewa.Designer.vb">
+      <DependentUpon>td-khop-sewa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="td-khop-sewa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="village-clinic-entry.Designer.vb">
+      <DependentUpon>village-clinic-entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="village-clinic-entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vitamin-a.Designer.vb">
+      <DependentUpon>vitamin-a.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vitamin-a.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="baal-vita.resx">
+      <DependentUpon>baal-vita.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="balbalika-posan.resx">
+      <DependentUpon>balbalika-posan.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChiefMinisterPublicHealthExaminationRecordRegister.resx">
       <DependentUpon>ChiefMinisterPublicHealthExaminationRecordRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="condom-distribution.resx">
+      <DependentUpon>condom-distribution.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contact-investigation-and-tbpt-register.resx">
+      <DependentUpon>contact-investigation-and-tbpt-register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emergency-service-register.resx">
+      <DependentUpon>emergency-service-register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="imnci-register-below-two-months.resx">
+      <DependentUpon>imnci-register-below-two-months.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kustha-rog-treatment.resx">
+      <DependentUpon>kustha-rog-treatment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="non-communicable-and-mental-health.resx">
+      <DependentUpon>non-communicable-and-mental-health.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presumptive-tb-register.resx">
+      <DependentUpon>presumptive-tb-register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="senior-citizen.resx">
+      <DependentUpon>senior-citizen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="matri-nabasisu-sewa-register.resx">
+      <DependentUpon>matri-nabasisu-sewa-register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pariwaar-niyojan-permanent.resx">
+      <DependentUpon>pariwaar-niyojan-permanent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="patient-admission-register.resx">
+      <DependentUpon>patient-admission-register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tb-laboratory-xpert-register.resx">
+      <DependentUpon>tb-laboratory-xpert-register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vitamin-a2.resx">
+      <DependentUpon>Vitamin-a2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="health-promotion-and-health-eduction-register.resx">
+      <DependentUpon>health-promotion-and-health-eduction-register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icud-implant-register.resx">
+      <DependentUpon>icud-implant-register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="khop-session.resx">
+      <DependentUpon>khop-session.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laboratory-request-and-reporting.resx">
+      <DependentUpon>laboratory-request-and-reporting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mahila-swasthya-swam-sewika-details.resx">
+      <DependentUpon>mahila-swasthya-swam-sewika-details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="malaria-kustharog-kalaazar-lab.resx">
+      <DependentUpon>malaria-kustharog-kalaazar-lab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mothers-death-details.resx">
+      <DependentUpon>mothers-death-details.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mul-darta.resx">
       <DependentUpon>mul-darta.vb</DependentUpon>
@@ -139,6 +409,42 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ncd-screening.resx">
       <DependentUpon>ncd-screening.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="out-patient.resx">
+      <DependentUpon>out-patient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="patient-discharge-register.resx">
+      <DependentUpon>patient-discharge-register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pills-depo-registers.resx">
+      <DependentUpon>pills-depo-registers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reproductive-health.resx">
+      <DependentUpon>reproductive-health.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="safe-abortion-service-register.resx">
+      <DependentUpon>safe-abortion-service-register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sexually-transmitted-infection.resx">
+      <DependentUpon>sexually-transmitted-infection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sncu-nicu-kmcu.resx">
+      <DependentUpon>sncu-nicu-kmcu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tb-lab-register.resx">
+      <DependentUpon>tb-lab-register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="td-khop-sewa%282%29.resx">
+      <DependentUpon>td-khop-sewa%282%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="td-khop-sewa.resx">
+      <DependentUpon>td-khop-sewa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="village-clinic-entry.resx">
+      <DependentUpon>village-clinic-entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vitamin-a.resx">
+      <DependentUpon>vitamin-a.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
